@@ -67,7 +67,7 @@ section .contentBx .formBx .inputBx {
   width: 100%;
 }
 section .contentBx .formBx .inputBx input {
-  /* width: 100%; */
+  width: 100%;
   padding: 10px 20px;
   outline: none;
   font-weight: 400;
@@ -79,7 +79,8 @@ section .contentBx .formBx .inputBx input {
   border-radius: 30px;
 }
 section .contentBx .formBx .inputBx input[type="submit"] {
-  width: 100%;
+  border: none;
+  /* width: 100%; */
   background: #ff4584;
   color: #fff;
   cursor: pointer;
